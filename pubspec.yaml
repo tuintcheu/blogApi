@@ -1,0 +1,23 @@
+name: votre_nom_de_projet
+description: Une nouvelle application Flutter.
+
+publish_to: 'none' # Pour éviter la publication sur pub.dev lors de tests
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0 # Assurez-vous que la version du SDK Dart est compatible
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3 # Dépendance pour les requêtes HTTP
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
